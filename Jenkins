@@ -3,6 +3,6 @@
 
 @Library("com.i27.slb@main") _   // we are calling library that we configured in jenkins and its branch name (version). _ is used to import all global libraries and function @Library("com.i27.slb@main","com.i27.slb@develop")
 
-firstPipeline(
+firstpipeline(
 appName : 'cart' )
 
